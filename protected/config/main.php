@@ -47,9 +47,9 @@ return array(
  			'dryRun' => false,
 			//default transport options
 			'transportOptions'=>array(
-				'username'=>'admin@eatlovers.com',
-				'password'=>'admin123!@#',
-				'host'=>'smtp.gmail.com',
+				'username'=>'username@username.com',
+				'password'=>'password@password.com',
+				'host'=>'host',
                 'port'=>'465',
 				'encryption'=>'ssl',
 			)
