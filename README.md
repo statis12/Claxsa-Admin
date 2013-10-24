@@ -13,6 +13,7 @@ just call :
 localhost/claxsa-admin/administrator_panel
 
 username : admin
+
 password : 1234
 
 
