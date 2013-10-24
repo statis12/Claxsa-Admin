@@ -1,0 +1,35 @@
+  body {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #F7F7F7 !important;
+    text-align:center;
+	background:url("../img/bg.png") repeat;
+  }
+.login
+{
+	background-color: #FFFFFF !important;
+	max-width:330px !important;
+	border:1px solid #CCCCCC;
+	padding:15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+.login img{
+	max-height:35px;
+}
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="submit"]
+ {
+    font-size: 12px;
+    height: auto;
+    margin-bottom: 15px;
+}
+footer p{
+	font-weight:bold;
+	color:#808080;
+}
+.errorMessage {
+  color: red;
+}

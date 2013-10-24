@@ -1,0 +1,19 @@
+2013/10/24 09:49:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'username'@'localhost' (using password: YES)' in D:\xampp\htdocs\claxsa-admin\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\claxsa-admin\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\claxsa-admin\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\claxsa-admin\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\claxsa-admin\framework\web\auth\CDbAuthManager.php(589): CModule->getComponent('db')
+#4 D:\xampp\htdocs\claxsa-admin\framework\web\auth\CDbAuthManager.php(59): CDbAuthManager->getDbConnection()
+#5 D:\xampp\htdocs\claxsa-admin\framework\base\CModule.php(387): CDbAuthManager->init()
+#6 D:\xampp\htdocs\claxsa-admin\framework\base\CModule.php(103): CModule->getComponent('authManager')
+#7 D:\xampp\htdocs\claxsa-admin\protected\modules\administrator_panel\Administrator_panelModule.php(39): CModule->__get('authManager')
+#8 D:\xampp\htdocs\claxsa-admin\framework\web\CController.php(263): Administrator_panelModule->beforeControllerAction(Object(TopMenuController), Object(CInlineAction))
+#9 D:\xampp\htdocs\claxsa-admin\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\xampp\htdocs\claxsa-admin\framework\web\CWebApplication.php(141): CWebApplication->runController('administrator_p...')
+#11 D:\xampp\htdocs\claxsa-admin\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\claxsa-admin\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/claxsa-admin/administrator_panel/topMenu
+HTTP_REFERER=http://localhost/claxsa-admin/administrator_panel/default
+---
