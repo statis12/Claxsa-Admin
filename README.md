@@ -8,6 +8,13 @@ For YII Framework v1.1.14
 
 ![GitHub Logo](/images/admin.png)
 
+just call :
+
+localhost/claxsa-admin/administrator_panel
+
+username : admin
+password : 1234
+
 
 
 
